@@ -9,8 +9,8 @@ export const Character = () => {
 
   return (
     <>
-      <div className="flex items-center justify-end">
-        <h2 className="titlee">Rick And Morty</h2>
+      <div className="flex items-center justify-end gap-20 mt-4">
+        <h1 className="text-4xl font-bold">Rick And Morty</h1>
         <Link to="/filter-character">
           <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 ml-auto mr-80">Filter Character</button>
         </Link>
